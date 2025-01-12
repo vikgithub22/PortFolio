@@ -17,7 +17,7 @@ import Experience from './Experience';
 
 const About = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-800 text-white">
+    <div id="portfolio" className="w-full min-h-screen bg-gray-800 text-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-10 py-10 flex flex-col lg:flex-row items-center lg:items-start gap-8">
         {/* Information and Skills Section */}
         <div className="flex-1 text-center mt-6 lg:text-left">

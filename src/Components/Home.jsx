@@ -45,12 +45,18 @@ const Home = () => {
             I am passionate about learning new technologies, solving complex problems, and delivering impactful digital experiences.
           </p>
           <div className="flex justify-center md:justify-start">
-            <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 transform transition duration-300">
+            {/* <button className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 transform transition duration-300">
               <Link to="/About">Portfolio</Link>
               <span className="group-hover:rotate-90 duration-300 mt-1">
                 <MdKeyboardArrowRight size={25} className="ml-1" />
               </span>
-            </button>
+            </button> */}
+            <div className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer hover:scale-105 transform transition duration-300">
+              <a href="#portfolio" className="btn">PortFolio</a>
+              <span className="group-hover:rotate-90 duration-300 mt-1">
+                <MdKeyboardArrowRight size={25} className="ml-1" />
+              </span>
+            </div>
           </div>
         </div>
         <div className="mt-8 sm:mt-10">

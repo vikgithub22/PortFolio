@@ -9,7 +9,7 @@ const Projects = () => {
       title: 'Web Fitness App',
       description: 'A fitness application built with React, featuring workout plans and progress tracking.',
       image: webFIt, // Replace with actual image URL
-      github: 'https://github.com/vikgithub22/RailwayAnnouncement', // Replace with your GitHub link
+      github: 'https://github.com/vikgithub22/WebFitnessApp', // Replace with your GitHub link
     },
     {
       title: 'CryptoCurrency App',
